@@ -3,7 +3,7 @@
 header{
   display: flex;
   background-color: #EAC926;
-  width: 100vw;
+  width: auto;
   padding: 20px;
   flex-direction: column;
  
@@ -132,6 +132,7 @@ header ul{
     header{
       background-color: #EAC926;
       background-size: cover;
+      padding: 10px;
        }
     
  header figure img{
@@ -150,40 +151,46 @@ header ul{
     }
     header section{
       display: flex;
-     
-      width: 40vw;
+           width: 40vw;
     }
 
     
     #burger-menu{
       display: none;
     }
-    .show-mobile{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
-    }
 
+.barras{
+  display: inline-flex;
+  justify-content: space-between;
+  padding-bottom: none;
+}
+
+.show-mobile{
+display: inline-flex;
+width: 48vw;
+
+}
+    
 .login{
-    display: flex;
-    justify-content: space-between;
-    }
+  display: inline-flex;
+  width: 48vw;
+
+      }
+
 
 
 }
 
-nav.show-mobile li{
+/* nav.show-mobile li{
 margin:0 2px;
 }
 
 nav.show-mobile ul{
 display: flex;
 margin: 0 5px;
-}
+} */
 
-    
+/*     
     header nav ul{
       flex: 1 0 auto;
       display: flex;
@@ -193,7 +200,7 @@ margin: 0 5px;
     header nav ul li a{
       color: #000;
     }
-  
+   */
   }
   
 
@@ -227,6 +234,8 @@ margin: 0 5px;
 
   /*Dektop PC*/
   @media screen and (min-width: 1920px)
+
+
 
 {
 
