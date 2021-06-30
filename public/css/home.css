@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+  font-size: "Roboto";
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ }
+
+html{
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+
+  }
+ 
+.banner{
+width: auto;
+}
+ 
+main{
+width: 100%;
+background-color: #ebebeb;
+}
+
+main section{
+display: flex;
+flex-flow: row wrap;
+justify-content:center;
+
+border: 1px solid #ebebeb;
+}
+
+.titulares{
+  font-size: 1.4rem;
+  width: 100%;
+padding: 20px;
+  background-color:#ebebeb;
+text-align: left;
+}
+
+
+.producto{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  padding: 10px;
+  background-color: white;
+}
+
+article{
+    box-shadow: 0 0 1rem 0 rgba( 20,20,20,0.3);
+    width: 300px;
+    padding: 1rem;
+    background: #ebebeb;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1rem;
+    }
+  
+article figure{
+    display: flex;
+    border-bottom: .05rem solid #ebebeb;
+  }
+  
+main section article i{
+display: flex;
+      font-size: 16px;
+    width: 2rem;
+    height: 2rem;
+    border: .1rem solid #39b54a;
+    background-color: #FFF;
+    border-radius: 2rem;
+    padding: .2rem;
+    color:#39b54a;
+    padding: .1rem;
+    margin: 0px;
+      align-self: right;
+ 
+
+ 
+  }
+           
+  .precio-descuento{
+    display: flex;
+    justify-content: space-around;
+   text-align: left;
+    padding: 2px;
+  }
+    
+.precios{
+    font-size: 1.1rem;
+    color: black;
+    display: flex;
+    text-align: left;
+    width: 30%;
+    }
+  
+.descuentos{
+   
+    font-size: 1.1rem;
+    display: flex;
+      color: #39b54a;
+      width: 70%;
+             }
+
+
+
+
+img{
+    max-width: 100%;
+    margin:0%;
+}
+
+.destacado {
+    font-size:24px;
+    color: #666;
+}
+
+
+.titulares-secundarios{
+  display: none;
+}
+
+
+
+
+
+ /*TABLET*/
+@media (min-width: 361px) {
+
+
+
+.titulares-secundarios {
+display: flex;
+font-weight: bold;
+color: #666;
+}
+
+
+/*DESKTOP*/
+@media (min-width: 769px) {
+
+.titulares-secundarios {
+  display: flex;
+  font-weight: bold;
+  color: #666;
+}
