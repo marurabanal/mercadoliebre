@@ -14,8 +14,10 @@ html{
 body{
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
-
-  }
+display: flex;
+flex-direction: column;
+width: 100%;
+}
  
 .banner{
 width: auto;
@@ -28,9 +30,10 @@ background-color: #ebebeb;
 
 main section{
 display: flex;
-flex-flow: row wrap;
-justify-content:center;
-
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+width: auto;
 border: 1px solid #ebebeb;
 }
 
@@ -141,7 +144,7 @@ font-weight: bold;
 color: #666;
 }
 
-
+}
 /*DESKTOP*/
 @media (min-width: 769px) {
 
@@ -149,4 +152,5 @@ color: #666;
   display: flex;
   font-weight: bold;
   color: #666;
+}
 }
